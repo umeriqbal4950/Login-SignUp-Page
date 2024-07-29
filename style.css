@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    margin-top: 30vh;
+    border-radius: 10px;
+}
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1722072977408-0865d9cc3904?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+.inputfield{
+    padding: 15px;
+    margin-top: 2vh;
+    border-radius: 30px;
+}
+
+
+.btn{
+    background-color: aqua;
+    color: black;
+    padding: 5px;
+    font-size: 1.7rem;
+    margin-top: 2vh;
+    border-radius: 10px;
+}
+
+p{
+    margin-top: 2vh;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+
+
+@media (width < 600px){
+    form{
+        width: 60vw;
+        height: 50vh;
+    }
+
+    .inputfield{
+        width: 40vw;
+    }
+
+    p{
+        font-size: 0.8em;
+    }
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+li{
+    padding: 20px;
+}
+
+
+a{
+    text-decoration: none;
+}
