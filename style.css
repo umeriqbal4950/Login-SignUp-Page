@@ -58,6 +58,7 @@ a{
     form{
         width: 60vw;
         height: 50vh;
+        margin-top: 10vh;
     }
 
     .inputfield{
